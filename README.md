@@ -19,3 +19,18 @@ Una **CRNN (Convolutional Recurrent Neural Network)** è un tipo di rete neurale
 - Dopo la parte convoluzionale, le caratteristiche estratte vengono passate alla parte ricorrente della rete, tipicamente una RNN o una variante come LSTM (Long Short-Term Memory) o GRU (Gated Recurrent Unit). Le RNN sono ideali per catturare le dipendenze temporali o sequenziali nei dati, come il contesto temporale in un video o la sequenza di parole in una frase.
 
 ![image](https://github.com/user-attachments/assets/91c5f430-2b2b-4704-9500-255eda5c13f3)
+
+## Architettura del Modello ad Alto Livello 
+Per progettare un modello di rete neurale CRNN che possa soddisfare i requisiti descritti, è necessario suddividere l'architettura in due blocchi principali.
+
+#### Blocco di Classificazione Testo/Non Testo
+Questo blocco **determina se l'immagine contiene testo o meno**. Utilizza una rete **CNN** per estrarre caratteristiche e classificare l'immagine. **Strato di Classificazione**: **un livello di classificazione completamente connesso (fully connected) che fornisce un output binario: "Testo" o "Non Testo".** Utilizza funzioni di attivazione come Softmax o Sigmoid per produrre la probabilità che l'immagine contenga testo.
+
+### Blocco di Riconoscimento del Testo (CRNN)
+Questo blocco è **responsabile del riconoscimento del testo nell'immagine**.
+
+- **Parte Convoluzionale (CNN)**: utilizza strati convoluzionali per estrarre caratteristiche spaziali dall'immagine.
+- **Parte Ricorrente (RNN)**: questa parte serve a "leggere" il testo estratto dalla parte convoluzionale e trasformarlo in una sequenza di caratteri.
+
+#### Riconoscimento Oggetti (Object Detection)
+Se l'immagine è classificata come "Non Testo", **implementa un meccanismo per chiedere all'utente se desidera riconoscere gli oggetti presenti nell'immagine**.
