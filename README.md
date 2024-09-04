@@ -12,6 +12,8 @@ Esempio 1: l'utente scatta una foto ad un cartello triangolare bianco dipinto su
 
 Esempio 2: l'utente scatta una foto a Rapallo, in Liguria, dove si ha parcheggiato in un parcheggio bianco, quindi non a pagamento e non adibito ai residenti (immagine 1). In prossimità del parcheggio proprio, si trova un cartello con indicata rimozione del mezzo, e divieto di sosta (immagine 2). L'utente vuole sapere se può lasciare la macchina in quel parcheggio, oppure se deve spostarla perchè magari è ignaro di qualche regola impostata dal comune che impone qualche vincolo particolare. Tramite prompt, l'utente, dopo aver inserito le immagini, digita: "Mi trovo nel comune di Rapallo, in Liguria (Italia). Posso lasciare la macchina qui, oppure prenderò la multa/mi verrà rimosso il veicolo?". Il modello deve poter rispondere: "Si/No" dopo essersi informato sulle regole e sulle leggi del comune di Rapallo. Se non sono presenti leggi particolari per quel comune, cercherà nel regolamento stradale italiano, e in base alla combinazione dei due cartelli, risponderà in modo affermativo piuttosto che negativo.
 
+In caso di applicazione, **si potrebbe attivare la videocamera del telefono in tempo reale, in modo da poter avere una comunicazione con il chatbot in tempo reale**. 
+
 ## CRNN
 Una **CRNN (Convolutional Recurrent Neural Network)** è un tipo di rete neurale artificiale che combina **due tipi di reti neurali**: **le reti neurali convoluzionali (CNN) e le reti neurali ricorrenti (RNN)**. Questo tipo di architettura viene utilizzato principalmente **per elaborare dati sequenziali o strutturati come immagini, video, testo o segnali audio**.
 
