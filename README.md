@@ -21,7 +21,7 @@ This module is trained to recognize objects from a specific set of 10 classes: [
 Technology: **CNN implemented with TensorFlow**
 Purpose: Broadens the recognition capabilities to include general objects, useful for multi-object detection tasks.
 
-### ext Extraction
+### Text Extraction
 The Text Extraction module uses Optical Character Recognition (OCR) to extract text from an image. This feature allows the system to interpret written content, expanding the range of recognized data from the image.
 
 Technology: **Keras OCR**
