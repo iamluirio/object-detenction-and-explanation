@@ -1,5 +1,13 @@
 # Text and Object Detenction with Subsequent Explanation
 
+<div align="left">
+
+<img src="https://img.shields.io/badge/PyTorch-grey?style=for-the-badge&logo=pytorch&logoColor=red" />
+<img src="https://img.shields.io/badge/TensorFlow-grey?style=for-the-badge&logo=tensorflow&logoColor=orange" />
+<img src="https://img.shields.io/badge/transformers-grey?style=for-the-badge&logo=huggingface&logoColor=yellow" />
+<img src="https://img.shields.io/badge/nltk-grey?style=for-the-badge&logo=python&logoColor=blue" />
+</div>
+
 This project is designed to recognize and interpret various elements within an image, such as faces, numbers, objects, and text, and provides an interactive Q&A chatbot that leverages context from images. Below is an overview of each module and the technologies applied.
 
 ## Project Modules
