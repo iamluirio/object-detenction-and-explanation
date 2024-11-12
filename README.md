@@ -34,3 +34,6 @@ Technology: **LSTM for phrase learning, CRNN (ResNet) for context-based Q&A**
 Purpose: Provides a conversational interface that considers visual and textual data, enhancing interaction by adapting responses based on image context.
 
 **NOTE: The Q&A Generative Chatbot in this project is primarily demonstrated for educational and illustrative purposes**. It has been trained with limited resources, so while the construction, implementation, and usage of the chatbot are showcased here, its responses may not reflect the high accuracy of a fully-trained model. This module is intended to serve as a learning tool for understanding how image-based question-answering models can be developed and integrated.
+
+## Project Setup 
+For any references to this project, please refer either to the **final model** as a whole or to each individual module as needed.
