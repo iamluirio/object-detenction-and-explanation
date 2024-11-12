@@ -37,3 +37,8 @@ Purpose: Provides a conversational interface that considers visual and textual d
 
 ## Project Setup 
 For any references to this project, please refer either to the **final model** as a whole or to each individual module as needed.
+
+## Datasets
+- **CIFAR-10 Dataset**: The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 classes, with 6,000 images per class. It is commonly used for training machine learning and computer vision algorithms. You can download it from the [official website](https://www.cs.toronto.edu/~kriz/cifar.html).
+- **COCO Dataset (2014 Train Images with Annotations)**: The COCO (Common Objects in Context) dataset is a large-scale object detection, segmentation, and captioning dataset. For the 2014 training images along with their annotations, you can download them from [the official COCO website](https://cocodataset.org/).
+- **MNIST Handwritten Digits Dataset**: The MNIST database is a large collection of handwritten digits commonly used for training various image processing systems. It contains 60,000 training images and 10,000 testing images. You can download it [from the official page](https://yann.lecun.com/exdb/mnist/).
