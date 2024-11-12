@@ -4,6 +4,10 @@
 
 <img src="https://img.shields.io/badge/PyTorch-grey?style=for-the-badge&logo=pytorch&logoColor=red" />
 <img src="https://img.shields.io/badge/TensorFlow-grey?style=for-the-badge&logo=tensorflow&logoColor=orange" />
+<img src="https://img.shields.io/badge/OpenCV-grey?style=for-the-badge&logo=opencv&logoColor=green" />
+
+<img src="https://img.shields.io/badge/Keras-grey?style=for-the-badge&logo=keras&logoColor=D00000" />
+
 
 </div>
 
